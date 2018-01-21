@@ -19,12 +19,9 @@ import java.io.*;
 
 
 public class DynamicKnapsack {
-	
-	
-	int capacity;											// used to store given capacity
-	
+
+	int capacity;											// used to store given capacity	
 	int userChoice = 0;											// used to store user choice for entry or file input
-	
 	int numItems;														// number of items to be looked at. user entered or at top of input.txt
 	double weight;
 	double value;												// used to temporarily store before creating Item
